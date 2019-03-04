@@ -1,0 +1,37 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "Aulh7C5SVOA4Jzt5eHNH6197Mbk=",
+			"path": "github.com/konsorten/go-windows-terminal-sequences",
+			"revision": "f55edac94c9bbba5d6182a4be46d86a2c9b5b50e",
+			"revisionTime": "2019-02-26T22:47:05Z"
+		},
+		{
+			"checksumSHA1": "6oP4viBaYtDJBQUDdZFHErQ8oNI=",
+			"path": "github.com/sirupsen/logrus",
+			"revision": "c9b4f5af6d2e078467a2dfadf23f8d8566f1653e",
+			"revisionTime": "2019-03-03T11:00:21Z"
+		},
+		{
+			"checksumSHA1": "QU00lGkD/G00hoTs2qG7q4xsLVc=",
+			"path": "golang.org/x/crypto/ssh/terminal",
+			"revision": "8dd112bcdc25174059e45e07517d9fc663123347",
+			"revisionTime": "2019-02-28T09:13:53Z"
+		},
+		{
+			"checksumSHA1": "qzsQcFEX2HgP6ORHtSthfUl8paw=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "c2f5717e611cf8e89a852a41081355194d80c943",
+			"revisionTime": "2019-03-02T23:31:21Z"
+		},
+		{
+			"checksumSHA1": "Hu8GoQK1euwtE4UjrhXepmk2NM8=",
+			"path": "golang.org/x/sys/windows",
+			"revision": "c2f5717e611cf8e89a852a41081355194d80c943",
+			"revisionTime": "2019-03-02T23:31:21Z"
+		}
+	],
+	"rootPath": "github.com/xedinaska/minicube-tutor"
+}

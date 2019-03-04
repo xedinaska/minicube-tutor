@@ -21,7 +21,7 @@ func main() {
 
 	go func() {
 		sig := <-gracefulStop
-		log.Infof("received control signal: %+v", sig)
+		log.Infof("UPD received control signal: %+v", sig)
 		os.Exit(0)
 	}()
 

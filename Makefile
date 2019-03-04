@@ -1,8 +1,10 @@
 all: clean
 
 clean:
-	@rm ./bin/app || true
 	@rm ./bin/app_linux || true
+
+build:
+	GOOS=linux go build -o ./bin/app_linux ./cmd/main.go
 
 dockerize:
 	GOOS=linux go build -o ./bin/app_linux ./cmd/main.go

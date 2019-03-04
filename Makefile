@@ -5,7 +5,7 @@ clean:
 
 #build application binary using golang image (important for autobuild on dockerhub)
 pre_build:
-	docker run --rm -i -v "$GOPATH":/gopath -v "$(pwd)":/app -e "GOPATH=/gopath" -w /app golang:latest sh -c 'ls && go build -o bin/app_linux cmd/main.go'
+	docker run --rm -i -v "$GOPATH":/gopath -v "$(pwd)":/app -e "GOPATH=/gopath" -w /app golang:latest sh -c 'ls'
 
 dockerize:
 	GOOS=linux go build -o ./bin/app_linux ./cmd/main.go
